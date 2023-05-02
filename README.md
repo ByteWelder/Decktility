@@ -16,6 +16,10 @@ The [Power Manager](./powermanager) controls the power connection to the Pi and 
 
 The power manager measures battery and charging status, and can send it over I2C to the Pi.
 
+# Case
+
+The case is available as open hardware via [OnShape](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1).
+
 # Bill of materials
 
 The links are mainly to search results, as links to specific items tend to fail as shops update their stock.
