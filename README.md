@@ -40,3 +40,10 @@ Make sure to double-check that you're ordering the correct item.
 - BlueTooth mini keyboard with 49 keys ([AliExpress](https://www.aliexpress.com/w/wholesale-bluetooth-mini-keyboard-49-keys.html?catId=0&SearchText=bluetooth+mini+keyboard+49+keys))
 - 2x 18650 battery (`1.5 A` charge current, e.g. `US18650VTC6`)
 - 2x 18650 SMT battery holder ([AliExpress](https://www.aliexpress.com/w/wholesale-18650-battery-holder-smt.html?catId=0&SearchText=18650+battery+holder+smt))
+
+# License
+
+All hardware, software and other content in this project are licensed under `Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)`.
+
+See [LICENSE.md](LICENSE.md) for details. For a short overview and translations go to the [Creative Commons website](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
