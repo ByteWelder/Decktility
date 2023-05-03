@@ -8,9 +8,8 @@ This project is a work in progress.
 
 # Features
 
-- Dimensions: 124.4 mm width, 150.0 mm height, 16.1mm depth
+- Compact design: 124.4 mm width, 150.0 mm height, 16.1mm depth
 - Powered by a Raspberry Pi CM4 and a BTT Pad 5 (800x480 resolution with capacitive touch)
-- Compact design
 - Replaceable batteries
 - About 20 hours of battery life (\*)
 - USB-C charging
