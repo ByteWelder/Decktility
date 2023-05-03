@@ -2,7 +2,20 @@
 
 A custom-built cyberdeck, inspired by various handheld PCs and palmtops, but especially by [Yarh.io Micro 2](https://yarh.io/).
 
+This project is a work in progress.
+
 ![Decktility device mockup](decktility.png)
+
+# Features
+
+- Powered by a Raspberry Pi CM4 and a BTT Pad 5 (800x480 resolution with capacitive touch)
+- Compact design
+- Replaceable batteries
+- About 20 hours of battery life (\*)
+- USB-C charging
+- Power management (reports to the Pi and refuses to turn on when battery is critically low)
+
+(\*) Using US18650VTC6 cells. Power draw was tested with an idle Discord tab in Chrome.
 
 # Software
 
