@@ -2,11 +2,15 @@
 
 A custom-built cyberdeck, inspired by various handheld PCs and palmtops, but especially by [Yarh.io Micro 2](https://yarh.io/).
 
+![Decktility device mockup](decktility.png)
+
 # Software
 
 ## Raspberry Pi
 
 The Pi can be given the OS of your chosing. Consider [Raspberry Pi OS](https://www.raspberrypi.com/software/) or [Kali](https://www.kali.org/docs/arm/raspberry-pi-4/).
+
+Check the to the [Pad 5 Manual](https://github.com/bigtreetech/Raspberry-Pad/tree/master/Pad5) for installing the OS and setting up some of the hardware.
 
 The [Power Manager Client](./powermanager-client) is used to communicate charging status and battery status to the Arduino Nano. This info can be used to show warnings or even auto-shutdown the Pi.
 
@@ -15,6 +19,8 @@ The [Power Manager Client](./powermanager-client) is used to communicate chargin
 The [Power Manager](./powermanager) controls the power connection to the Pi and the keyboard. Power is enabled/disabled depending on the battery voltage.
 
 The power manager measures battery and charging status, and can send it over I2C to the Pi.
+
+The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https://www.arduino.cc/).
 
 # Case
 
