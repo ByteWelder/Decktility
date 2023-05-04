@@ -4,7 +4,7 @@ A custom-built cyberdeck, inspired by various handheld PCs and palmtops, but esp
 
 This project is a work in progress.
 
-![Decktility device mockup](decktility.png){:width="400px"}
+![Decktility device mockup](decktility.png)
 
 # Features
 
