@@ -52,7 +52,11 @@ Make sure to double-check that you're ordering the correct item.
 - USB C 2S battery charger/BMS ([AliExpress](https://www.aliexpress.com/w/wholesale-Type%2525252dC-USB-2%252F3S-BMS-15W.html?catId=0&origin=y&SearchText=Type-C+USB+2%2F3S+BMS+15W+))
 - BlueTooth mini keyboard with 49 keys ([AliExpress](https://www.aliexpress.com/w/wholesale-bluetooth-mini-keyboard-49-keys.html?catId=0&SearchText=bluetooth+mini+keyboard+49+keys))
 - 2x 18650 battery (`1.5 A` charge current, e.g. `US18650VTC6`)
-- 2x 18650 SMT battery holder ([AliExpress](https://www.aliexpress.com/w/wholesale-18650-battery-holder-smt.html?catId=0&SearchText=18650+battery+holder+smt))
+- 1x 18650 SMT battery holder for 2 cells ([AliExpress](https://www.aliexpress.com/w/wholesale-18650-battery-holder-smt.html?catId=0&SearchText=18650+battery+holder+smt))
+- 11x M2 insert nut (`3 mm high`, `3.5 mm wide`)
+- ?x M2 screws of various sizes (TBD)
+- Double-sided tape (about `1 mm` thick) to secure the BEC PCB.
+- Other things like wire, soldering gear, 3D printer.
 
 # License
 
