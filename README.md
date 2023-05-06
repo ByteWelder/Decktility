@@ -48,7 +48,7 @@ Make sure to double-check that you're ordering the correct item.
 - Raspberry Pi CM4 (the model of your choice)
 - Arduino Nano (or clone)
 - Electronic Switch Control Board (e.g. F5305S PMOS Trigger Module on [AliExpress](https://www.aliexpress.com/w/wholesale-F5305S-PMOS-Trigger-Module.html?catId=0&SearchText=F5305S+PMOS+Trigger+Module))
-- 5V 3A step down converter ([AliExpress](https://www.aliexpress.com/w/wholesale-3A-Mini-Step-Down-Converter-Board.html?catId=0&SearchText=3A+Mini+Step+Down+Converter+Board))
+- 5V 3A step down converter, adjustable ([AliExpress](https://www.aliexpress.com/w/wholesale-5v-3a-step-down-12%2525252d20v.html?catId=0&SearchText=5v+3a+step+down+12-20v))
 - USB C 2S battery charger/BMS ([AliExpress](https://www.aliexpress.com/w/wholesale-Type%2525252dC-USB-2%252F3S-BMS-15W.html?catId=0&origin=y&SearchText=Type-C+USB+2%2F3S+BMS+15W+))
 - BlueTooth mini keyboard with 49 keys ([AliExpress](https://www.aliexpress.com/w/wholesale-bluetooth-mini-keyboard-49-keys.html?catId=0&SearchText=bluetooth+mini+keyboard+49+keys))
 - 2x 18650 battery (`1.5 A` charge current, e.g. `US18650VTC6`)
@@ -56,6 +56,7 @@ Make sure to double-check that you're ordering the correct item.
 - 11x M2 insert nut (`3 mm high`, `3.5 mm wide`)
 - ?x M2 screws of various sizes (TBD)
 - Double-sided tape (about `1 mm` thick) to secure the BEC PCB.
+- 2006 5V fan (20 x 6 mm)
 - Other things like wire, soldering gear, 3D printer.
 
 # License
