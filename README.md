@@ -6,6 +6,10 @@ Project status: alpha
 
 ![Decktility device mockup](decktility.png)
 
+![Decktility device mockup](decktility-back.png)
+
+![Decktility device mockup](decktility-internals.png)
+
 # Features
 
 - Compact design: `124.4 mm` width, `144.0 mm` height, `16.1 mm` depth
