@@ -12,7 +12,7 @@ Project status: alpha
 
 # Features
 
-- Compact design: `124.4 mm` width, `144.0 mm` height, `16.1 mm` depth
+- Compact design: `124.4 x 144.0 x 16.3 mm` (w x h x d). The battery lid portrudes by `10.2 mm`.
 - Powered by a Raspberry Pi CM4 and a BTT Pad 5 (`800x480` resolution with capacitive touch)
 - Replaceable batteries
 - About `20 h` of battery life (\*)
@@ -59,6 +59,8 @@ Make sure to double-check that you're ordering the correct item.
 - 4x Spring steel 18650 leaf spring battery contact
 - 11x M2 insert nut (`3 mm` high, `3.5 mm` wide)
 - 10x M1.4 3mm button head screw
+- 4x M2.5 4 or 5mm (button or flat head) for Pad 5 mounting
+- A set of watch maker screws of various sizes (M1.0, M1.2, M1.4)
 - ?x M2 screws of various sizes (TBD)
 - ?x M3 screws of various sizes (TBD)
 - Double-sided tape (about `1 mm` thick) to secure the BEC PCB. (e.g. 3M VHB tape)
