@@ -13,9 +13,9 @@ Project status: alpha
 # Features
 
 - Compact design: `124.4 x 144.0 x 16.3 mm` (w x h x d). The battery lid portrudes by `10.2 mm`.
+- Relatively light weight at approximately `300 g`. (depends on filament weight)
 - Powered by a Raspberry Pi CM4 and a BTT Pad 5 (`800x480` resolution with capacitive touch)
-- Replaceable batteries
-- About `20 h` of battery life (\*)
+- Replaceable batteries, for when `20 h` of battery life isn't enough. (\*)
 - USB-C charging
 - Power management (reports to the Pi and refuses to turn on when battery is critically low)
 
@@ -63,9 +63,49 @@ Make sure to double-check that you're ordering the correct item.
 - A set of watch maker screws of various sizes (M1.0, M1.2, M1.4)
 - ?x M2 screws of various sizes (TBD)
 - ?x M3 screws of various sizes (TBD)
-- Double-sided tape (about `1 mm` thick) to secure the BEC PCB. (e.g. 3M VHB tape)
 - 2006 5V fan (`20 x 6 mm`)
 - Other things like wire, soldering gear, 3D printer.
+- Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
+- SS12F15 mini slide switch
+- (optional) Elastic jewelry wire, 1mm, transparent
+
+# Printing Guidelines
+
+The settings below are based on what I used in SuperSlicer (~PrusaSlicer).
+They might (not) translate to other slicer software.
+
+## Filament
+
+If your 3D printer does not have an enclosure, use PETG or PCTG.
+I prefer using ASA (with ABS/ABS+ as alternative).
+
+Avoid using PLA or other similar low-temperature filaments:
+The BMS can get hot (`45 C`, measured outside the case).
+There is active cooling, but if the fan is defect, it might heat up the plastic and warp it.
+
+## Printing
+
+Some parts are exported from CAD upside-down and need to be flipped `180 degrees`.
+
+You can print with layer height of `0.2 mm` or finer and a `0.4 mm` nozzle.
+
+### Main Case
+
+Note that the walls are relatively thin and weaken the case near connector holes.
+This means that your wall adhesion has to be good. Ensure you're running your filament at a high enough
+temperature for the speed you're printing at. If you calibrated your filament to work at a minimum
+tempearture, you might have to raise it to create sufficient strength.
+
+Consider changing the the top layer fill patern to `Concentric`. This will give you smoother top surface quality,
+both for mounting components and for the top edge of the case.
+
+When printing the main case with ASA, I slice with manually added supports only. I place these supports at:
+- The counterbores on the back (the ones for mounting the display)
+- The ethernet bridging part
+- The Pi's IO connector on the back
+
+When printing with ASA, disable bridging fan speed to avoid adhesion problems near the connector openings.
+Otherwise, layers might split off when placing the display into the case.
 
 # License
 
