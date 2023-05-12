@@ -89,6 +89,17 @@ Some parts are exported from CAD upside-down and need to be flipped `180 degrees
 
 You can print with layer height of `0.2 mm` or finer and a `0.4 mm` nozzle.
 
+### PCB Bracket
+
+Print in normal orientation with build plate supports.
+
+### Battery Cover
+
+Rotate it 90 degrees over the Y axis so it stands up on its side.
+You need supports along the edge on this inside.
+I painted them on manually, because they get attached to the inner wall.
+Alternatively, you can use `Supports: Everywhere`.
+
 ### Main Case
 
 Note that the walls are relatively thin and weaken the case near connector holes.
