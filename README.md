@@ -2,7 +2,7 @@
 
 Decktility is a handheld PC, inspired by by [Yarh.io Micro 2](https://yarh.io/) and [uConsole](https://www.clockworkpi.com/uconsole).
 
-It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, resulting in a relatively compact and lightweight device with about 20 hours of battery life.
+It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, with about 20 hours of battery life.
 
 ![Decktility device mockup](decktility-photo.jpg)
 
@@ -25,7 +25,7 @@ This project is in **beta**. Things that need fixing:
 # Features
 
 - Compact design: `124.4 x 144.0 x 16.3 mm` (w x h x d). The battery lid portrudes by `10.2 mm`.
-- Relatively light weight at approximately `300 g`. (depends on filament weight)
+- Weighs approximately `375 g`. (depends on filament weight)
 - Powered by a Raspberry Pi CM4 and a BTT Pad 5 (`800x480` resolution with capacitive touch)
 - Replaceable batteries, for when `20 h` of battery life isn't enough. (\*)
 - USB-C charging
