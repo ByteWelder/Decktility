@@ -2,13 +2,21 @@
 
 A custom-built cyberdeck, inspired by various handheld PCs and palmtops, but especially by [Yarh.io Micro 2](https://yarh.io/).
 
-Project status: alpha
-
 ![Decktility device mockup](decktility.png)
 
 ![Decktility device mockup](decktility-back.png)
 
 ![Decktility device mockup](decktility-internals.png)
+
+# Project status
+
+This project is in **beta**. Things that need fixing:
+
+- Panel gap between screen and keyboard
+- No I2C yet due to mosfet setup
+- Fan touches outlet (noisy): the fan currently touches the air outlet part. It needs a recess. The temporary fix is to cut out the outlet shape so it becomes an open hole.
+- GPIO alignment issue
+- Document I2C tools from https://learn.adafruit.com/scanning-i2c-addresses/raspberry-pi
 
 # Features
 
@@ -51,7 +59,7 @@ Make sure to double-check that you're ordering the correct item.
 - BigTreeTech Pad 5
 - Raspberry Pi CM4
 - Arduino Nano V3.0 with USB-C connector
-- Electronic Switch Control Board (e.g. FLR784 mosfet module on [AliExpress](https://www.aliexpress.com/w/wholesale-LR784-mosfet-module.html?catId=0&SearchText=LR784+mosfet+module))
+- Electronic Switch Control Board (e.g. FLR784 mosfet module on [AliExpress](https://www.aliexpress.com/w/wholesale-LR784-mosfet-module.html?catId=0&SearchText=LR784+mosfet+module) - note: this will be changed in the future)
 - `5 V` `3 A` step down converter, adjustable ([AliExpress](https://www.aliexpress.com/w/wholesale-5v-3a-step-down-12%2525252d20v.html?catId=0&SearchText=5v+3a+step+down+12-20v))
 - USB-C 2S battery charger/BMS ([AliExpress](https://www.aliexpress.com/w/wholesale-Type%2525252dC-USB-2%252F3S-BMS-15W.html?catId=0&origin=y&SearchText=Type-C+USB+2%2F3S+BMS+15W+))
 - BlueTooth mini keyboard with 49 keys ([AliExpress](https://www.aliexpress.com/w/wholesale-bluetooth-mini-keyboard-49-keys.html?catId=0&SearchText=bluetooth+mini+keyboard+49+keys))
@@ -62,7 +70,6 @@ Make sure to double-check that you're ordering the correct item.
 - 4x M2.5 4 or 5mm (button or flat head) for Pad 5 mounting
 - A set of watch maker screws of various sizes (M1.0, M1.2, M1.4)
 - ?x M2 screws of various sizes (TBD)
-- ?x M3 screws of various sizes (TBD)
 - 2006 5V fan (`20 x 6 mm`)
 - Other things like wire, soldering gear, 3D printer.
 - Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
@@ -99,6 +106,8 @@ Rotate it 90 degrees over the Y axis so it stands up on its side.
 You need supports along the edge on this inside.
 I painted them on manually, because they get attached to the inner wall.
 Alternatively, you can use `Supports: Everywhere`.
+
+Make sure you clean up the inside thoroughly, so it fits on the case.
 
 ### Main Case
 
