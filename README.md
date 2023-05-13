@@ -1,6 +1,8 @@
 # Decktility
 
-A custom-built cyberdeck, inspired by various handheld PCs and palmtops, but especially by [Yarh.io Micro 2](https://yarh.io/).
+Decktility is a handheld PC, inspired by by [Yarh.io Micro 2](https://yarh.io/) and [uConsole](https://www.clockworkpi.com/uconsole).
+
+It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, resulting in a relatively compact and lightweight device with about 20 hours of battery life.
 
 ![Decktility device mockup](decktility.png)
 
