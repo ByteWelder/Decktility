@@ -47,7 +47,7 @@ The [Power Manager Client](./powermanager-client) is used to communicate chargin
 
 The [Power Manager](./powermanager) controls the power connection to the Pi and the keyboard. Power is enabled/disabled depending on the battery voltage.
 
-The power manager measures battery and charging status, and can send it over I2C to the Pi.
+The power manager measures battery and charging status, and can send it over I2C to the Pi. (note: there is an issue with the latest power fet changes, so I2C support is WIP)
 
 The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https://www.arduino.cc/).
 
@@ -55,81 +55,11 @@ The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https:
 
 The case is available as open hardware via [OnShape](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1).
 
-# Bill of materials
+# Building
 
-The links are mainly to search results, as links to specific items tend to fail as shops update their stock.
-Make sure to double-check that you're ordering the correct item.
-
-- BigTreeTech Pad 5
-- Raspberry Pi CM4
-- Arduino Nano V3.0 with USB-C connector
-- Electronic Switch Control Board (e.g. FLR784 mosfet module on [AliExpress](https://www.aliexpress.com/w/wholesale-LR784-mosfet-module.html?catId=0&SearchText=LR784+mosfet+module) - note: this will be changed in the future)
-- `5 V` `3 A` step down converter, adjustable ([AliExpress](https://www.aliexpress.com/w/wholesale-5v-3a-step-down-12%2525252d20v.html?catId=0&SearchText=5v+3a+step+down+12-20v))
-- USB-C 2S battery charger/BMS ([AliExpress](https://www.aliexpress.com/w/wholesale-Type%2525252dC-USB-2%252F3S-BMS-15W.html?catId=0&origin=y&SearchText=Type-C+USB+2%2F3S+BMS+15W+))
-- BlueTooth mini keyboard with 49 keys ([AliExpress](https://www.aliexpress.com/w/wholesale-bluetooth-mini-keyboard-49-keys.html?catId=0&SearchText=bluetooth+mini+keyboard+49+keys))
-- 2x 18650 battery (`1.5 A` charge current, e.g. `US18650VTC6`)
-- 4x Spring steel 18650 leaf spring battery contact
-- 11x M2 insert nut (`3 mm` high, `3.5 mm` wide)
-- 10x M1.4 3mm button head screw
-- 4x M2.5 4 or 5mm (button or flat head) for Pad 5 mounting
-- A set of watch maker screws of various sizes (M1.0, M1.2, M1.4)
-- ?x M2 screws of various sizes (TBD)
-- 2006 5V fan (`20 x 6 mm`)
-- Other things like wire, soldering gear, 3D printer.
-- Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
-- SS12F15 mini slide switch
-- (optional) Elastic jewelry wire, 1mm, transparent
-
-# Printing Guidelines
-
-The settings below are based on what I used in SuperSlicer (~PrusaSlicer).
-They might (not) translate to other slicer software.
-
-## Filament
-
-If your 3D printer does not have an enclosure, use PETG or PCTG.
-I prefer using ASA (with ABS/ABS+ as alternative).
-
-Avoid using PLA or other similar low-temperature filaments:
-The BMS can get hot (`45 C`, measured outside the case).
-There is active cooling, but if the fan is defect, it might heat up the plastic and warp it.
-
-## Printing
-
-Some parts are exported from CAD upside-down and need to be flipped `180 degrees`.
-
-You can print with layer height of `0.2 mm` or finer and a `0.4 mm` nozzle.
-
-### PCB Bracket
-
-Print in normal orientation with build plate supports.
-
-### Battery Cover
-
-Rotate it 90 degrees over the Y axis so it stands up on its side.
-You need supports along the edge on this inside.
-I painted them on manually, because they get attached to the inner wall.
-Alternatively, you can use `Supports: Everywhere`.
-
-Make sure you clean up the inside thoroughly, so it fits on the case.
-
-### Main Case
-
-Note that the walls are relatively thin and weaken the case near connector holes.
-This means that your wall adhesion has to be good. Ensure you're running your filament at a high enough
-temperature for the speed you're printing at. If you calibrated your filament to work at a minimum
-tempearture, you might have to raise it to create sufficient strength.
-
-Consider changing the the top layer fill patern to `Concentric`. This will give you smoother top surface quality,
-both for mounting components and for the top edge of the case.
-
-When printing the main case with ASA, I slice with manually added supports only. I place these supports at:
-- The counterbores on the back (the ones for mounting the display)
-- The ethernet bridging part
-- The Pi's IO connector on the back
-
-When printing with ASA, disable bridging fan speed to avoid adhesion problems near the connector openings.
-Otherwise, layers might split off when placing the display into the case.
+- [Bill of materials](docs/bom.md)
+- [Printing guide](docs/printing.md)
+- [Assembling](docs/assembling.md)
 
 # License
 
