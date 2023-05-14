@@ -16,10 +16,9 @@ It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, with about 6 hours of 
 
 This project is in **beta**. Things that need fixing:
 
-- Panel gap between screen and keyboard
+- Design keyboard LED diffusers
 - No I2C yet due to mosfet setup
-- Fan touches outlet (noisy): the fan currently touches the air outlet part. It needs a recess. The temporary fix is to cut out the outlet shape so it becomes an open hole.
-- GPIO alignment issue
+- Panel gap between screen and keyboard
 - Document I2C tools from https://learn.adafruit.com/scanning-i2c-addresses/raspberry-pi
 
 # Features
