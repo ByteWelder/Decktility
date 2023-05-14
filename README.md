@@ -55,6 +55,8 @@ The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https:
 
 The case is available as open hardware via [OnShape](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1).
 
+STL and STEP files will be posted on GitHub when I've worked out the last few issues. Meanwhile, you can export them directly from OnShape by right-clicking on the parts and chosing "Export".
+
 # Building
 
 - [Bill of materials](docs/bom.md)
