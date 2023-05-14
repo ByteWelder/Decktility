@@ -1,5 +1,15 @@
 # Assembling Decktility
 
+## Power Manager / Arduino Nano
+
+You can build the project with `Arduino IDE V2`. Change `config.h` to your liking.
+
+The default pins are as follows:
+- `Vbat` is measured at pin `A0`.
+- Charge state is measured at pin `D2`. It connects to the LED connector on the USB-C BMS board. This is marked as `LED` on the back or `D` on the front of the PCB.
+- The power enable pin for the mosfet is wired to `D3`.
+- `Vin` and `Gnd` are wired to the common ground and to the switch that connects to the `5 V` of the step down converter.
+
 ## Keyboard mod
 
 The keyboard comes with a Lithium battery installed, but I needed it to work with `5 V`.
@@ -18,6 +28,8 @@ If you are not trying the (untested) alternative [mosfet module](mosfet-alternat
 I soldered them on top of the existing ones as encircled in blue:
 
 ![mosfet module resistor locations](pics/mosfet-modded.jpg)
+
+Note: This mosfet setup (N fet)  makes it impossible to also connect the I2C pins from the Arduino to the Pi. Do **not** connect these in this scenario.
 
 ## Heat inserts
 
