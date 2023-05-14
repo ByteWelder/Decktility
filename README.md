@@ -4,13 +4,13 @@ Decktility is a handheld PC, inspired by by [Yarh.io Micro 2](https://yarh.io/) 
 
 It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, with about 6 hours of battery life.
 
-![Decktility device mockup](decktility-photo.jpg)
+![Decktility device mockup](docs/pics/decktility-photo.jpg)
 
-![Decktility device mockup](decktility.png)
+![Decktility device mockup](docs/pics/decktility.png)
 
-![Decktility device mockup](decktility-back.png)
+![Decktility device mockup](docs/pics/decktility-back.png)
 
-![Decktility device mockup](decktility-internals.png)
+![Decktility device mockup](docs/pics/decktility-internals.png)
 
 # Project status
 
