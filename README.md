@@ -16,10 +16,8 @@ It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, with about 6 hours of 
 
 This project is in **beta**. Things that need fixing:
 
+- No I2C connection to Raspberry Pi yet due to mosfet setup (note: Document I2C tools from https://learn.adafruit.com/scanning-i2c-addresses/raspberry-pi)
 - Design keyboard LED diffusers
-- No I2C yet due to mosfet setup
-- Panel gap between screen and keyboard
-- Document I2C tools from https://learn.adafruit.com/scanning-i2c-addresses/raspberry-pi
 
 # Features
 
