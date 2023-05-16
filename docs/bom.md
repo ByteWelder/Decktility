@@ -6,7 +6,6 @@ Make sure to double-check that you're ordering the correct item.
 - BigTreeTech Pad 5
 - Raspberry Pi CM4
 - Arduino Nano V3.0 with USB-C connector
-- Electronic Switch Control Board like [this](pics/mosfet-modded.jpg)(needs mod, see build guide) or [this](pics/mosfet-alternative.jpg)(untested)
 - `5 V` `3 A` step down converter like [this](pics/step-down-top.jpg)
 - USB-C 2S battery charger/BMS like [this](pics/usb-c-bms.jpg)
 - BlueTooth mini keyboard like [this](pics/bluetooth-keyboard.jpg) (needs modding, see build guide)
@@ -20,4 +19,15 @@ Make sure to double-check that you're ordering the correct item.
 - Other things like wire, soldering gear, 3D printer.
 - Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
 - SS12F15 mini slide switch
+- Electronic switch control board (see below)
 - (optional) Elastic jewelry wire, 1mm, transparent
+
+
+## Electronic switch control board
+
+I used a [module](pics/fet-module.jpg) that you can find on AliExpress/Amazon. The module itself is too large, 
+so it needed to be transplanted onto an experiment board.
+You could either buy such a module and transplant the components, or you can buy the components individually.
+
+Check the assembly guide for the schematics.
+
