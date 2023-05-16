@@ -50,7 +50,11 @@ The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https:
 
 # Case
 
-The case is available as open hardware via [OnShape](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1).
+The case is available as open hardware via [OnShape]
+- [Beta v0.6](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/v/9458e81329733e3846e63f3d/e/4a5e1b73d1adb9b17f2035b1)
+- [Main/WIP](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1)
+
+**Warning**: Don't print from the Main branch, because it will possibly have unfinished and/or untested changes.
 
 STL and STEP files will be posted on GitHub when I've worked out the last few issues. Meanwhile, you can export them directly from OnShape by right-clicking on the parts and chosing "Export".
 
