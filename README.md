@@ -17,7 +17,7 @@ It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, with about 6 hours of 
 This project is in **beta**. Upcoming changes:
 
 - M2 heat insert nuts are being replaced (`3.5 x 3 mm` to `3.2 x 2 mm`)
-- Electronics plateau lowered from `3 mm` to `2 mm` to create more space for cabling.
+- Electronics plateau lowered from `3 mm` to `2 mm` to create more space for wiring.
 - Electronics plateau improvements for new FET setup
 - Battery status kernel driver support
 
