@@ -14,10 +14,12 @@ It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, with about 6 hours of 
 
 # Project status
 
-This project is in **beta**. Things that need fixing:
+This project is in **beta**. Upcoming changes:
 
-- No I2C connection to Raspberry Pi yet due to mosfet setup (note: Document I2C tools from https://learn.adafruit.com/scanning-i2c-addresses/raspberry-pi)
-- Design keyboard LED diffusers
+- M2 heat insert nuts are being replaced (`3.5 x 3 mm` to `3.2 x 2 mm`)
+- Electronics plateau lowered from `3 mm` to `2 mm` to create more space for cabling.
+- Electronics plateau improvements for new FET setup
+- Battery status kernel driver support
 
 # Features
 
