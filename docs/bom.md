@@ -9,7 +9,7 @@ Make sure to double-check that you're ordering the correct item.
 - `5 V` `3 A` step down converter like [this](pics/step-down-top.jpg)
 - USB-C 2S battery charger/BMS like [this](pics/usb-c-bms.jpg)
 - BlueTooth mini keyboard like [this](pics/bluetooth-keyboard.jpg) (needs modding, see build guide)
-- 2x 18650 battery (`1.5 A` charge current, e.g. `US18650VTC6`)
+- 2x 18650 battery. **Must** be capable of `1.5 A` charge current. For example: `US18650VTC6`
 - 4x Spring steel 18650 leaf spring battery contact like this [this](pics/battery-contacts.jpg)
 - 11x M2 insert nut (`3 mm` high, `3.5 mm` wide)
 - 10x M1.4 3mm button head screw (it's best to get a set with various sizes)

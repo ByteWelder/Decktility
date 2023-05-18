@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define I2C_ADDRESS 42
+#define I2C_ADDRESS 0x64
 
 #define VBAT_ADC_PIN A0
 // Tweak with PSU. See when analog input becomes 1023.
@@ -18,7 +18,7 @@
 #define POWER_ENABLE_PIN 3
 
 #define DEBUG
-// #define BATTERY_STATE_LOG
+#define BATTERY_STATE_LOG
 #define CHARGE_STATE_LOG
 #define POWER_SWITCH_LOG
 
