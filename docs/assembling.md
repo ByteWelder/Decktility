@@ -6,6 +6,10 @@
 
 You can build the project with `Arduino IDE V2`. Change `config.h` to your liking.
 
+The default (and only) battery and discharge profile is for a Murata VT6 3120 mAh cell.
+You can leave it in place, but you can also make your own. It is set in `powermanager.ino`
+and the default profile is in `battery.cpp`.
+
 ### Pinout
 
 The default pins on the Arduino are as follows:

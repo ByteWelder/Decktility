@@ -1,8 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define I2C_ADDRESS 0x64
-
 #define VBAT_ADC_PIN A0
 // Tweak with PSU. See when analog input becomes 1023.
 #define VBAT_ADC_MAX_READABLE_PIN_VOLTAGE 4.1f
