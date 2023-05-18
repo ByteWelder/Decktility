@@ -68,6 +68,10 @@ ls /sys/class/power_supply/ltc2942
 cat /sys/class/power_supply/ltc2942/charge_*
 ```
 
+Kernel driver reference: https://github.com/torvalds/linux/blob/master/drivers/power/supply/ltc2941-battery-gauge.c
+Implementation reference: https://github.com/MacroYau/LTC2942-Arduino-Library
+Datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2941.pdf
+
 ## Keyboard mod
 
 The keyboard comes with a Lithium battery installed, but I needed it to work with `5 V`.
