@@ -1,5 +1,7 @@
 # Assembling Decktility
 
+**Note:** This document is a work in progress.
+
 ## Power Manager / Arduino Nano
 
 ### Firmware 
