@@ -3,14 +3,15 @@
 #include "chargestate.h"
 #include "powerswitch.h"
 #include "ltc294x.h"
-
+#include "battery.h"
 
 void setup() {
   logInit();
   log("Init ... ");
 
-  ltc294xInit();
+  setBattery(murata3120Vtc6);
 
+  ltc294xInit();
   batteryStateInit();
   chargeStateInit();
   powerSwitchInit();

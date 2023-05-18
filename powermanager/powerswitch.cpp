@@ -3,6 +3,7 @@
 #include "config.h"
 #include "batterystate.h"
 #include "log.h"
+#include "battery.h"
 
 int lastState = LOW;
 
@@ -12,11 +13,12 @@ void powerSwitchInit() {
 }
 
 void powerSwitchUpdate() {
-  float vbat = batteryStateGetVoltageAverage();
+  float vBatCell = batteryStateGetVoltageAverage() / VBAT_CELL_COUNT;
+  const Battery& battery = getBattery();
   int newState;
-  if (vbat > VBAT_TURN_ON) {
+  if (vBatCell > battery.vRecovery) {
     newState = HIGH;
-  } else if (vbat < VBAT_TURN_OFF) {
+  } else if (vBatCell < battery.vCritical) {
     newState = LOW;
   } else {
     newState = lastState;

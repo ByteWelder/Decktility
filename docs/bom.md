@@ -20,6 +20,7 @@ Make sure to double-check that you're ordering the correct item.
 - Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
 - SS12F15 mini slide switch
 - Electronic switch control board (see below)
+- Experiment PCB
 - (optional) Elastic jewelry wire, 1mm, transparent
 
 
