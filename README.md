@@ -49,10 +49,8 @@ STL and STEP files will be posted on GitHub when I've worked out the last few is
 
 # Building
 
-Considering the project is in beta status, I advise you to wait a bit until it is in a more stable state. Some components and designs are expected to change.
-I store the major changes of the project in OnShape as different versions, so you should have a reference when major changes occur.
-
 This project comes with no warranty. I take no responsibility whatsoever. Build this project at your own risk.
+A detailed wiring schematic will be published soon, and the assembly guide is expected to improve still.
 
 - [Bill of materials](docs/bom.md)
 - [Printing guide](docs/printing.md)
