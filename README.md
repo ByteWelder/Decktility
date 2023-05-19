@@ -42,7 +42,7 @@ The [Power Manager Client](./powermanager-client) is used to communicate chargin
 
 The [Power Manager](./powermanager) controls the power connection to the Pi and the keyboard. Power is enabled/disabled depending on the battery voltage.
 
-The power manager measures battery and charging status, and can send it over I2C to the Pi. (note: there is an issue with the latest power fet changes, so I2C support is WIP)
+The power manager measures battery and charging status, and can send it over I2C to the Pi. This enables battery status on the Pi desktop.
 
 The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https://www.arduino.cc/).
 
