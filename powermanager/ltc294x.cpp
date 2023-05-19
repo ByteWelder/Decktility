@@ -3,7 +3,6 @@
 #include "config.h"
 #include "log.h"
 #include "ltc294x.h"
-#include "ltc294x_internal.h"
 #include "batterystate.h"
 #include "chargestate.h"
 #include "battery.h"
