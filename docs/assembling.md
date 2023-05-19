@@ -97,3 +97,8 @@ Insert heat inserts:
 - To the sides of the keyboard top panel
 - On the top of the battery container 
 
+## Fan
+
+The fan wires are made of plastic. which can melt when soldering. The wires are stiff and runs past the BMS that can get hot.
+It is advised to cut the wires short and extend back to the desired length with AWG28 silicon wire. Don't forget to add some heat srhink.
+
