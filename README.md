@@ -1,7 +1,7 @@
 # Decktility
 
 Decktility is a handheld PC, inspired by [Yarh.io Micro 2](https://yarh.io/),
-[uConsole](https://www.clockworkpi.com/uconsole) and various retry handheld PCs.
+[uConsole](https://www.clockworkpi.com/uconsole) and various retro handheld PCs.
 
 It is built with a Raspbery Pi CM4 and an 800x480 pixel IPS screen with capacitive touch.
 A set of batteries offers about 6 hours of battery life.
