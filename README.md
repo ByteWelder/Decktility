@@ -1,6 +1,7 @@
 # Decktility
 
-Decktility is a handheld PC, inspired by [Yarh.io Micro 2](https://yarh.io/) and [uConsole](https://www.clockworkpi.com/uconsole).
+Decktility is a handheld PC, inspired by [Yarh.io Micro 2](https://yarh.io/),
+[uConsole](https://www.clockworkpi.com/uconsole) and various retry handheld PCs.
 
 It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, and has about 6 hours of battery life.
 
@@ -23,29 +24,26 @@ It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, and has about 6 hours 
 
 ## Raspberry Pi
 
-The Pi can be given the OS of your chosing. Consider [Raspberry Pi OS](https://www.raspberrypi.com/software/) or [Kali](https://www.kali.org/docs/arm/raspberry-pi-4/).
+The Pi can be used with [Raspberry Pi OS](https://www.raspberrypi.com/software/) or any other Pi-compatible OS.
 
 Check the to the [Pad 5 Manual](https://github.com/bigtreetech/Raspberry-Pad/tree/master/Pad5) for installing the OS and setting up some of the hardware.
-
-The [Power Manager Client](./powermanager-client) is used to communicate charging status and battery status to the Arduino Nano. This info can be used to show warnings or even auto-shutdown the Pi.
 
 ## Arduino Nano / Power Manager
 
 The [Power Manager](./powermanager) controls the power connection to the Pi and the keyboard. Power is enabled/disabled depending on the battery voltage.
+The power manager measures battery and charging status, and can send it to the Pi. This enables battery status on the Pi desktop.
 
-The power manager measures battery and charging status, and can send it over I2C to the Pi. This enables battery status on the Pi desktop.
-
-The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https://www.arduino.cc/).
+Check out the [assembly guide](docs/assembling.md) for more details.
 
 # Case
 
-The case is available as open hardware via [OnShape]
+The latest printable parts are in the [printables](printables) folder.
+
+The case is available as open hardware via OnShape:
 - [v1.0](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/v/bb9262cb0caf4859bc4bdf05/e/c5b400bc9f33c73249dce75b)
 - [Main/WIP](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1)
 
 **Warning**: Don't print from the Main branch, because it will possibly have unfinished and/or untested changes.
-
-STL and STEP files will be posted on GitHub when I've worked out the last few issues. Meanwhile, you can export them directly from OnShape by right-clicking on the parts and chosing "Export".
 
 # Building
 
