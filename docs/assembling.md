@@ -65,14 +65,7 @@ Check driver status messages:
 dmesg
 ```
 
-Verify power supply data from driver:
-
-```bash
-# Verify the device and its properties are there:
-ls /sys/class/power_supply/ltc2942
-# Show charge_counter, charge_empty, charge_full, charge_now:
-cat /sys/class/power_supply/ltc2942/charge_*
-```
+Retrieve the battery status on the Pi with [ic2test.sh](../scripts/i2ctest.sh).
 
 Kernel driver reference: https://github.com/torvalds/linux/blob/master/drivers/power/supply/ltc2941-battery-gauge.c
 
@@ -94,7 +87,7 @@ I copied the idea from [Yarh.io](https://yarh.io/yarh-io-m2.html), but I'll elab
 
 ## FET module
 
-Build it according to the [schematics](pics/fet-schematics.png) and [PCB placement](pics/fet-pcb.png).
+Build it according to the [schematic](pics/fet-schematic.png) and [PCB placement](pics/fet-pcb.png).
 
 ## Heat inserts
 

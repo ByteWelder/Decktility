@@ -11,20 +11,18 @@ Make sure to double-check that you're ordering the correct item.
 - BlueTooth mini keyboard like [this](pics/bluetooth-keyboard.jpg) (needs modding, see build guide)
 - 2x 18650 battery. **Must** be capable of `1.5 A` charge current. For example: `US18650VTC6`
 - 4x Spring steel 18650 leaf spring battery contact like this [this](pics/battery-contacts.jpg)
-- (for V0.6) 11x M2 insert nut (`3 mm` high, `3.5 mm` wide)
-- (for newer versions) 11x M2 insert nut (`2 mm` high, `3.2 mm` wide)
-- 10x M1.4 3mm button head screw (it's best to get a set with various sizes)
-- A set of watch maker screws of various sizes (M1.0, M1.2 x 3 mm, M1.4 x 3 mm, etc.)
+- 50x M2 heat insert nut (`2 mm` high, `3.2 mm` wide) (you don't need 50, but you might need more than a single set in case of a failed print)
+- 10x M1.4 2mm self-tapping screw (it's best to get a set with various sizes, because printing tolerances vary)
+- A set of watch maker screws of various sizes (M1.0, M1.2, M1.4, etc.)
 - 4x M2.5 4mm (button or flat head) for Pad 5 mounting (there are cheap sets with M2-M2.5-M3 screws out there)
 - 2006 5V fan (`20 x 6 mm`)
-- Other things like wire, soldering gear, 3D printer.
 - Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
 - SS12F15 mini slide switch
 - Electronic switch control board (see below)
 - Experiment PCB
 - (optional) Elastic jewelry wire, 1mm, transparent ('optical fiber' to wire USB charger LEDs to case)
 - (optional) JST-SH male and female plugs (for easy detaching I2C wires during development)
-
+- Other things like soldering gear, 3D printer.
 
 ## Electronic switch control board
 
