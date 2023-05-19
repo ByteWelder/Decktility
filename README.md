@@ -8,15 +8,6 @@ It is built with a Raspbery Pi CM4 and BigTreeTech Pad 5, and has about 6 hours 
 
 ![Decktility device mockup](docs/pics/decktility-internals.png)
 
-# Project status
-
-This project is in **beta**. Upcoming changes:
-
-- M2 heat insert nuts are being replaced (`3.5 x 3 mm` to `3.2 x 2 mm`)
-- Electronics plateau lowered from `3 mm` to `2 mm` to create more space for wiring.
-- Electronics plateau improvements for new FET setup
-- Battery status kernel driver support
-
 # Features
 
 - Compact design: `124.4 x 144.0 x 16.3 mm` (w x h x d). The battery lid portrudes by `10.2 mm`.
@@ -49,7 +40,7 @@ The project can be opened and built with Arduino IDE v2 from [Arduino.cc](https:
 # Case
 
 The case is available as open hardware via [OnShape]
-- [Beta v0.6](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/v/9458e81329733e3846e63f3d/e/4a5e1b73d1adb9b17f2035b1)
+- [v1.0](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/v/bb9262cb0caf4859bc4bdf05/e/c5b400bc9f33c73249dce75b)
 - [Main/WIP](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1)
 
 **Warning**: Don't print from the Main branch, because it will possibly have unfinished and/or untested changes.

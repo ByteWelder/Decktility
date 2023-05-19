@@ -5,13 +5,14 @@ Make sure to double-check that you're ordering the correct item.
 
 - BigTreeTech Pad 5
 - Raspberry Pi CM4
-- Arduino Nano V3.0 with USB-C connector
+- Arduino Nano V3.0
 - `5 V` `3 A` step down converter like [this](pics/step-down-top.jpg)
 - USB-C 2S battery charger/BMS like [this](pics/usb-c-bms.jpg)
 - BlueTooth mini keyboard like [this](pics/bluetooth-keyboard.jpg) (needs modding, see build guide)
 - 2x 18650 battery. **Must** be capable of `1.5 A` charge current. For example: `US18650VTC6`
 - 4x Spring steel 18650 leaf spring battery contact like this [this](pics/battery-contacts.jpg)
-- 11x M2 insert nut (`3 mm` high, `3.5 mm` wide)
+- (for V0.6) 11x M2 insert nut (`3 mm` high, `3.5 mm` wide)
+- (for newer versions) 11x M2 insert nut (`2 mm` high, `3.2 mm` wide)
 - 10x M1.4 3mm button head screw (it's best to get a set with various sizes)
 - A set of watch maker screws of various sizes (M1.0, M1.2 x 3 mm, M1.4 x 3 mm, etc.)
 - 4x M2.5 4mm (button or flat head) for Pad 5 mounting (there are cheap sets with M2-M2.5-M3 screws out there)
@@ -21,7 +22,8 @@ Make sure to double-check that you're ordering the correct item.
 - SS12F15 mini slide switch
 - Electronic switch control board (see below)
 - Experiment PCB
-- (optional) Elastic jewelry wire, 1mm, transparent
+- (optional) Elastic jewelry wire, 1mm, transparent ('optical fiber' to wire USB charger LEDs to case)
+- (optional) JST-SH male and female plugs (for easy detaching I2C wires during development)
 
 
 ## Electronic switch control board

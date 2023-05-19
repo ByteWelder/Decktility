@@ -103,3 +103,4 @@ Insert heat inserts:
 - In the case
 - To the sides of the keyboard top panel
 - On the top of the battery container 
+
