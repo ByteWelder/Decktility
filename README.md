@@ -33,6 +33,7 @@ Check the to the [Pad 5 Manual](https://github.com/bigtreetech/Raspberry-Pad/tre
 
 The [Power Manager](./powermanager) controls the power connection to the Pi and the keyboard. Power is enabled/disabled depending on the battery voltage.
 The power manager measures battery and charging status, and can send it to the Pi. This enables battery status on the Pi desktop.
+If something is not clear - or if you find an error, please open an issue on the GitHub project page.
 
 Check out the [assembly guide](docs/assembling.md) for more details.
 
