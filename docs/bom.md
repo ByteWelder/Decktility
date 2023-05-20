@@ -18,6 +18,7 @@ Make sure to double-check that you're ordering the correct item.
 - 2006 5V fan (`20 x 6 mm`)
 - Electrical wire: 24 AWG for power and 28 AWG for silicon. (silicon, not plastic)
 - SS12F15 mini slide switch
+- Resistors: 1x `2.2M Ohm`, 1x `3.9M Ohm`
 - Electronic switch control board (see below)
 - Experiment PCB
 - (optional) Elastic jewelry wire, 1mm, transparent ('optical fiber' to wire USB charger LEDs to case)

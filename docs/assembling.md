@@ -26,8 +26,8 @@ If you use an alternative I2C bus on the Pi, the driver won't scan that bus and 
 ### Calibrating the voltage
 
 Update the value for `VBAT_ADC_MAX_BATTERY_PIN_VOLTAGE` depending on the resistors you chose.
-I used `2.2M` and `3.9M` Ohm. You want to use high resistance values to reduce the current that flows/leaks to the Arduino.
-You also want to pick the values in such a way that you don't over-volt the Arduino pin.
+You must use high resistance values to reduce the current that leaks, as this wire is always connected to the battery.
+Make sure the pin on the Arduino never gets more than `5V`.
 
 I calibrate it as follows:
 - Upload firmare with `BATTERY_STATE_LOG` enabled in `config.h`
@@ -101,4 +101,42 @@ Insert heat inserts:
 
 The fan wires are made of plastic. which can melt when soldering. The wires are stiff and runs past the BMS that can get hot.
 It is advised to cut the wires short and extend back to the desired length with AWG28 silicon wire. Don't forget to add some heat srhink.
+
+## Wiring
+
+Wiring is divided into steps, to make it easier to comprehend.
+Make sure you check continuity on the wires before powering on - especially to make sure there are no short-circuits.
+Make sure to verify the functionality at each step before continueing to the next.
+
+Double-check your soldering joints, to make sure they are safe. You don't want wires to come loose while you use the device.
+
+### Wiring step 1: battery to BMS
+
+The BMS is connected first. Test if the battery is charging properly.
+
+![battery to bms wiring schematic](pics/wiring-01-battery-to-bms.png)
+
+### Wiring step 2: BMS to BEC
+
+Now that we have battery power, we'll connect the BEC to step it down to 5V.
+
+![bms to bec wiring schematic](pics/wiring-02-bms-to-bec.png)
+
+### Wiring step 3: power
+
+There rest of the power is connected now.
+The switch powers on the Arduino, while the Arduino powers the FET, which powers the rest of the devices.
+
+![general power wiring schematic](pics/wiring-03-power.png)
+
+### Wiring step 2: Arduino
+
+The remaining wires for the Arduino are now connected. It includes I2C, voltage measurement and charging status sensing.
+
+I used `3.9M Ohm` for `R1` and `2.2M Ohm` for `R2`. 
+If you use different resistor values, you must tweak the firmware settings in `config.h` of the firmware project.
+You must use high resistance values to reduce the current that leaks, as this wire is always connected to the battery.
+Make sure the pin on the Arduino never gets more than `5V`.
+
+![remaining arduino wiring schematic](pics/wiring-04-arduino.png)
 

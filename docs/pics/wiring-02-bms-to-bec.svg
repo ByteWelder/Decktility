@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210.00001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="wiring-bms-to-bec.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.46875"
+     inkscape:cx="644.05063"
+     inkscape:cy="383.3924"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid25324"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect21493"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect21493-9"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect21493-5"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <rect
+       style="display:inline;opacity:1;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.0737702;stroke-dasharray:none;stroke-opacity:1"
+       id="background"
+       width="114.74619"
+       height="42.261864"
+       x="96.73494"
+       y="86.818405"
+       inkscape:label="background"
+       inkscape:highlight-color="#3bb1ee" />
+  </g>
+  <g
+     inkscape:label="schematic"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="USB-C_BMS"
+       inkscape:label="bms"
+       transform="translate(-80.962603,46.467322)">
+      <rect
+         style="fill:#b3b3b3;stroke-width:0.218323"
+         id="rect918"
+         width="56"
+         height="24"
+         x="230.09508"
+         y="49.712914"
+         inkscape:label="background" />
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7"
+         cx="232.83145"
+         cy="58.364845"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:16.9894;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5"
+         transform="translate(87.595262,-4.0805945)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30969">Vbat+ 7.2V</tspan></text>
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-26"
+         cx="232.67551"
+         cy="53.143757"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:16.8468;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-1"
+         transform="translate(87.439317,-9.3016835)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30971">Vbat+ 7.2V</tspan></text>
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-8"
+         cx="232.87085"
+         cy="70.103188"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:8.53597;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-79"
+         transform="translate(87.634654,7.6577471)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30973">VBat-</tspan></text>
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-2"
+         cx="232.8835"
+         cy="61.801369"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:15.8727;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-7"
+         transform="translate(87.647315,-0.64407194)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30975">Vbat+ 3.6V </tspan></text>
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-0"
+         cx="232.87215"
+         cy="65.135017"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:9.16177;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-9"
+         transform="translate(87.635946,2.6895748)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30977">Vbat-</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#333333;stroke-width:0.264583"
+         x="267.71124"
+         y="63.178596"
+         id="text1031"
+         inkscape:label="label"><tspan
+           sodipodi:role="line"
+           id="tspan1029"
+           style="font-weight:bold;fill:#000080;stroke-width:0.264583"
+           x="267.71124"
+           y="63.178596">BMS (USB-C)</tspan></text>
+    </g>
+    <g
+       id="USB-C_BMS-0"
+       inkscape:label="bec"
+       transform="translate(-146.29741,50.382213)">
+      <rect
+         style="fill:#b3b3b3;stroke-width:0.177615"
+         id="rect918-6"
+         width="33.306728"
+         height="16.668842"
+         x="251.58104"
+         y="49.429459"
+         inkscape:label="background" />
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-89"
+         cx="254.38992"
+         cy="53.804672"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:16.9894;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-2"
+         transform="translate(109.15373,-8.6407689)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30979">Vin+</tspan></text>
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-2-5"
+         cx="254.28177"
+         cy="57.797234"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:15.8727;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-7-0"
+         transform="translate(109.04558,-4.648208)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30981">GND</tspan></text>
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-7-0-4"
+         cx="254.29263"
+         cy="61.868305"
+         r="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:9.16177;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text205-5-9-8"
+         transform="translate(109.05643,-0.57713851)"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30983">Vout+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#333333;stroke-width:0.264583"
+         x="276.91293"
+         y="59.073608"
+         id="text1031-7"
+         inkscape:label="label"><tspan
+           sodipodi:role="line"
+           style="font-weight:bold;fill:#000080;stroke-width:0.264583"
+           x="276.91293"
+           y="59.073608"
+           id="tspan9005">BEC</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.165;paint-order:stroke fill markers"
+       d="m 151.63262,99.743727 v -7.772135 h -49.59598 v 12.119338 h 5.93848"
+       id="path26891" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.165;paint-order:stroke fill markers"
+       d="m 151.83776,116.55942 v 7.38447 h -49.91289 v -15.88923 h 6.27841"
+       id="path26895" />
+  </g>
+  <g
+     id="Symbol_Palette"
+     transform="translate(76.53102,-42.222762)"
+     inkscape:label="reference"
+     style="display:none">
+    <g
+       id="g1714"
+       transform="translate(-0.29744175,0.11693042)"
+       inkscape:label="pad-bottom">
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-36"
+         cx="198.99205"
+         cy="50.303837"
+         r="1"
+         inkscape:label="pad-bottom-pad" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:10.9513;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text641-6"
+         transform="translate(46.663613,-15.510967)"
+         inkscape:label="pad-bottom-text"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30987"><tspan
+             style="text-align:center;text-anchor:middle"
+             id="tspan30985">XX</tspan></tspan></text>
+    </g>
+    <g
+       id="g1708"
+       inkscape:label="pad-top">
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-36-9"
+         cx="191.46831"
+         cy="50.576363"
+         r="1"
+         inkscape:label="pad-top-pad" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:10.9513;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text641-6-2"
+         transform="translate(39.220992,-8.4447863)"
+         inkscape:label="pad-top-text"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30991"><tspan
+             style="text-align:center;text-anchor:middle"
+             id="tspan30989">XX</tspan></tspan></text>
+    </g>
+    <g
+       id="g1708-2"
+       transform="translate(-13.609238,-3.5858466)"
+       inkscape:label="pad-left">
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-36-9-8"
+         cx="219.03064"
+         cy="54.040794"
+         r="1"
+         inkscape:label="pad-left-pad" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:18.2554;display:inline;fill:#000000;stroke-width:0.264583"
+         x="146.83389"
+         y="63.513313"
+         id="text641-6-2-9"
+         transform="translate(74.062969,-8.428343)"
+         inkscape:label="pad-left-text"><tspan
+           x="146.83389"
+           y="63.513313"
+           id="tspan30993">XX</tspan></text>
+    </g>
+    <g
+       id="g1708-2-3"
+       transform="translate(-46.284855,-3.1898085)"
+       inkscape:label="pad-right">
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="path147-36-9-8-1"
+         cx="231.28897"
+         cy="53.799992"
+         r="1"
+         inkscape:label="pad-right-pad" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:18.2554;display:inline;fill:#000000;stroke-width:0.264583"
+         x="150.52959"
+         y="63.513313"
+         id="text641-6-2-9-9"
+         transform="translate(60.484789,-8.6801088)"
+         inkscape:label="pad-right-text"><tspan
+           x="150.52959"
+           y="63.513313"
+           id="tspan30997"><tspan
+             style="text-align:end;text-anchor:end"
+             id="tspan30995">XX</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

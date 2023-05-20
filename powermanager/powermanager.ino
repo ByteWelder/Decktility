@@ -21,7 +21,6 @@ void setup() {
   batteryStateLog();
 }
 
-
 void loop() {
   batteryStateUpdate();
   chargeStateUpdate();
