@@ -3,6 +3,10 @@
 The settings below are based on what I used in SuperSlicer (~PrusaSlicer).
 They might (not) translate to other slicer software.
 
+If you don't own a 3D printer yourself, you can use an [online service](https://duckduckgo.com/?t=ffab&q=online+3d+printing+service&ia=web).
+
+The parts can be found in the [printables folder](../printables).
+
 ## Filament
 
 If your 3D printer does not have an enclosure, use PETG or PCTG.
