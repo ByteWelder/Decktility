@@ -23,7 +23,8 @@ Make sure to double-check that you're ordering the correct item.
 - Experiment PCB
 - (optional) Elastic jewelry wire, 1mm, transparent ('optical fiber' to wire USB charger LEDs to case)
 - (optional) JST-SH male and female plugs (for easy detaching I2C wires during development)
-- Other things like soldering gear, 3D printer (or use a 3D printer service online).
+- A soldering iron with a long and thin tip to reach the bottom of the Pi header on the PCB. I used a TS100 C1 tip.
+- Other soldering gear, 3D printer (or use a 3D printer service online).
 
 ## Electronic switch control board
 

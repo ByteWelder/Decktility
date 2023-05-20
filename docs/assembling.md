@@ -127,6 +127,10 @@ Now that we have battery power, we'll connect the BEC to step it down to 5V.
 There rest of the power is connected now.
 The switch powers on the Arduino, while the Arduino powers the FET, which powers the rest of the devices.
 
+The power wiring on the Pi is done directly on the black pin header near the PCB.
+I start by adding some solder to the base of the relevant pins, before adding the wiring.
+Make sure the wiring is attached properly, because you don't want it to come loose and create a short-circuit.
+
 ![general power wiring schematic](pics/wiring-03-power.png)
 
 ### Wiring step 4: Arduino
@@ -137,6 +141,9 @@ I used `3.9M Ohm` for `R1` and `2.2M Ohm` for `R2`.
 If you use different resistor values, you must tweak the firmware settings in `config.h` of the firmware project.
 You must use high resistance values to reduce the current that leaks, as this wire is always connected to the battery.
 Make sure the pin on the Arduino never gets more than `5V`.
+
+The Pi wiring for I2C is done directly on the black header connector pins.
+I used a long and thin TS100 C1 tip to reach these pins.
 
 ![remaining arduino wiring schematic](pics/wiring-04-arduino.png)
 
