@@ -48,8 +48,9 @@ The case is available as open hardware via OnShape:
 
 # Building
 
-This project comes with no warranty. I take no responsibility whatsoever. Build this project at your own risk.
-A detailed wiring schematic will be published soon, and the assembly guide is expected to improve still.
+Build this project at [your own risk](LICENSE.md).
+The build guide might have flaws.
+Working with batteries and electronics is not without risk.
 
 - [Bill of materials](docs/bom.md)
 - [Printing guide](docs/printing.md)
