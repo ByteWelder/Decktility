@@ -129,7 +129,7 @@ The switch powers on the Arduino, while the Arduino powers the FET, which powers
 
 ![general power wiring schematic](pics/wiring-03-power.png)
 
-### Wiring step 2: Arduino
+### Wiring step 4: Arduino
 
 The remaining wires for the Arduino are now connected. It includes I2C, voltage measurement and charging status sensing.
 
