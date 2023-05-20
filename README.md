@@ -42,7 +42,7 @@ Check out the [assembly guide](docs/assembling.md) for more details.
 The latest printable parts are in the [printables](printables) folder.
 
 The case is available as open hardware via OnShape:
-- [v1.0](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/v/bb9262cb0caf4859bc4bdf05/e/c5b400bc9f33c73249dce75b)
+- [v1.1](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/v/382999b629ab56cddd2b7e21/e/5dfdd5987e1df112fcfa814b)
 - [Main/WIP](https://cad.onshape.com/documents/bcf3b5212bb2ba6496cfe6cf/w/d70be68a60b4c80f684ba746/e/f2fb47dfa2dbdc91d7666ed1)
 
 **Warning**: Don't print from the Main branch, because it will possibly have unfinished and/or untested changes.
