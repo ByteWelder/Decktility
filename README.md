@@ -6,6 +6,8 @@ Decktility is a handheld PC, inspired by [Yarh.io Micro 2](https://yarh.io/),
 It is built with a Raspbery Pi CM4 and an 800x480 pixel IPS screen with capacitive touch.
 A set of batteries offers about 6 hours of battery life.
 
+The original build log and learnings can be found on [ByteWelder.com](https://bytewelder.com/posts/2023/05/20/building-a-handheld-pc.html).
+
 ![Decktility device mockup](docs/pics/decktility.jpg)
 
 ![Decktility device mockup](docs/pics/decktility-internals.png)
