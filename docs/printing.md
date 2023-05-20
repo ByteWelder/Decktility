@@ -53,3 +53,9 @@ When printing the main case with ASA, I slice with manually added supports only.
 When printing with ASA, disable bridging fan speed to avoid adhesion problems near the connector openings.
 Otherwise, layers might split off when placing the display into the case.
 
+### Display Buttons Shim
+
+This is printed in TPU. I used 95A shore hardness.
+Use a layer height of `0.10 mm` and ensure you have sufficient adhesion by printing at a high enough temperature.
+The top infill type can be set to `Concentric` for a better finish.
+
